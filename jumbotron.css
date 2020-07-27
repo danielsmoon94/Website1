@@ -1,0 +1,38 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+
+/* customize */
+.main-banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner-pic {
+	width: 100%;
+}
+
+.banner-phrase {
+  font: sans-serif;
+  font-size: 2.5vw;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.mypic {
+  padding-top: 30px;
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
